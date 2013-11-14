@@ -24,7 +24,7 @@ int main() {
 	
 	// left-right
 	for (int i = 0; i <= 19; i++)
-		for (int j = 20*i; j < (20*i)+16; j++) {
+		for (int j = 20*i; j <= (20*i)+16; j++) {
 			int tmp = product(arr[j], arr[j+1], arr[j+2], arr[j+3]);
 			if (tmp > max)
 				max = tmp;
